@@ -1,0 +1,85 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Sans-serif;
+	font-size: 1.1em;
+}
+
+p, h1, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+a, a:visited {
+	transition: all 0.25s;
+	color: #a00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #caa;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	transition: all 0.25s;
+	margin-top: 16px;
+	padding: 16px;
+	background-color: #eee;
+	border-radius: 4px;
+	border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+	padding-left: 32px;
+}
+
+.photo {
+	margin: 16px 0;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+
+.sidebar {
+	float: left;
+	max-width: 300px;
+	padding: 16px;
+	margin: 0 16px 16px;
+	text-align: center;
+	background-color: #fafafa;
+	border-radius: 4px;
+}
+
+.listOfJunk {
+	margin-left: 364px;
+	margin-right: 16px;
+}
+
+@media screen and (max-width: 800px) {
+	.photo {
+		max-width: 300px;
+		width: 75%;
+		height: 75%;
+	}
+	
+	.sidebar {
+		max-width: 100%;
+		padding: 16px;
+		margin: 0;
+	}
+	
+	.listOfJunk {
+		clear: both;
+		margin: 0;
+	}
+	
+	.listOfJunk li {
+		margin-top: 2px;
+	}
+}
