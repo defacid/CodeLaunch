@@ -1,4 +1,4 @@
-# CodeLaunch
+# Code Launch
 
 This is a tutorial on the basics of web development. By the end of the process, you will have created a responsive web portfolio that you can use and modify as you like with modern web development and design standards.
 
