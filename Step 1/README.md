@@ -1,1 +1,1 @@
-# Step 1 - Introduction
+# Step 1: Introduction
